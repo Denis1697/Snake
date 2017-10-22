@@ -146,6 +146,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Apple.cpp" />
+    <ClCompile Include="ConsoleLib.cpp" />
+    <ClCompile Include="Field.cpp" />
+    <ClCompile Include="Snake.cpp" />
+    <ClCompile Include="Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Apple.h" />
+    <ClInclude Include="Block.h" />
+    <ClInclude Include="ConsoleLib.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Includes.h" />
+    <ClInclude Include="List-old.h" />
+    <ClInclude Include="Snake.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
